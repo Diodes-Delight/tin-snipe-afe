@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "92a9ba36-35f6-42b7-8aa8-0417f7b683a2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 209.55 57.15)
+		(size 20.32 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0dfae5d7-0a36-4d28-860d-f8cb9a44728a")
+		(property "Sheetname" "Analog Bias Supply"
+			(at 209.55 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog-bias-supply.kicad_sch"
+			(at 209.55 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tin-snipe-afe"
+				(path "/92a9ba36-35f6-42b7-8aa8-0417f7b683a2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 57.15)
+		(size 21.59 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc81d35f-bf38-4dfb-9bb9-fba9f170cc51")
+		(property "Sheetname" "gain-stage"
+			(at 172.72 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gain-stage.kicad_sch"
+			(at 172.72 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tin-snipe-afe"
+				(path "/92a9ba36-35f6-42b7-8aa8-0417f7b683a2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 95.25)
+		(size 21.59 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cefcb644-9ffd-4253-b307-bc6d7222297b")
+		(property "Sheetname" "Frontend Protection"
+			(at 172.72 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend-prot.kicad_sch"
+			(at 172.72 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tin-snipe-afe"
+				(path "/92a9ba36-35f6-42b7-8aa8-0417f7b683a2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
