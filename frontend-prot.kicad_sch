@@ -502,7 +502,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
+						(xy 0 1.27) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0)
@@ -514,7 +514,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 1.27 2.54)
+						(xy 0 1.27) (xy -1.27 2.54)
 					)
 					(stroke
 						(width 0)
@@ -537,7 +537,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy -1.27 -2.54)
+						(xy 0 -1.27) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -549,7 +549,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
+						(xy 0 -1.27) (xy -1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -4964,14 +4964,12 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 149.86 85.09 0)
-		(mirror y)
+		(at 149.86 85.09 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b405c62-8f2d-46a7-bc8e-3373bc34f055")
 		(property "Reference" "SW4"
 			(at 149.86 76.2 0)
@@ -4981,7 +4979,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "G6KU-2F-Y"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -4989,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
 			(at 149.86 85.09 0)
 			(effects
 				(font
@@ -4998,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
 			(at 149.86 85.09 0)
 			(effects
 				(font
@@ -5062,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "G6KU-2F-Y"
 			(at 149.86 60.96 0)
 			(effects
 				(font
@@ -5070,7 +5068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -5079,7 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
 			(at 149.86 67.31 0)
 			(effects
 				(font
