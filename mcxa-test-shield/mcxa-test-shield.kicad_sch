@@ -3125,16 +3125,6 @@
 		)
 		(uuid "530bd72b-0e0d-476c-808b-923f006d41bd")
 	)
-	(text "what's the precision for"
-		(exclude_from_sim no)
-		(at 265.43 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "57507ad4-f8ba-4481-90cc-943ca04b1b36")
-	)
 	(text "forms an antialias filter\nwith ADC the input capacitance"
 		(exclude_from_sim no)
 		(at 252.73 135.89 0)
@@ -3231,9 +3221,9 @@
 		)
 		(uuid "d8fd1643-d97c-4872-8426-c6abad67fee1")
 	)
-	(text "had it already lying around\nno need really for that high precision"
+	(text "had it already on the board,\nno need really for that high\nprecision"
 		(exclude_from_sim no)
-		(at 276.86 106.68 0)
+		(at 256.54 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
