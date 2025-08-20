@@ -1,0 +1,14 @@
+description: GPIO pins to control enable pins of regulators
+compatible: "power-switches"
+child-binding:
+  description: The GPIOs controlling the pins for regulator enable
+  properties:
+    gpios:
+     type: phandle-array
+     required: true
+    label:
+      type: string
+      description: |
+        Human readable string describing the regulator enable. It can be used by an
+        application to identify this regulator or to retrieve its number/index
+        (i.e. child node number) on the parent device.
